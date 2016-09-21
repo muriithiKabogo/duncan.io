@@ -1,0 +1,29 @@
+.soccer
+{
+	color:#42DCA3;
+	 text-shadow: 2px 2px black;
+}
+.title
+{
+	color:#42DCA3;
+}
+
+.btn-glow {
+box-shadow: 1px 1px 12px #42DCA3;
+-webkit-animation: glowing 2500ms infinite;
+}
+
+.txt-glow {
+text-shadow: 1px 1px 12px #42DCA3;
+color: #42DCA3;
+-webkit-animation: glow 2500ms infinite;
+    
+}
+@-webkit-keyframes glow 
+{
+  50% { box-shadow: 0 0 50px #42DCA3; }
+}
+@-webkit-keyframes glowing 
+{
+  50% { box-shadow: 0 0 50px #42DCA3; }
+}
